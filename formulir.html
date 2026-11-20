@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Formulir Pendaftaran Anggota Baru</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Nama Lengkap:</label><br>
+  <input type="text" id="fname" name="fname" value="isi nama Anda"><br>
+  <label for="lname">Alamat Email:</label><br>
+  <input type="text" id="lname" name="lname" value="nama@email.com"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+<p>Pilih Minat Utama(satu):</p>
+<form>
+  <input type="radio" id="pengembangan web" name="fav_language" value="Pengembangan Web">
+  <label for="pengembangan web">Pengembangan Web</label><br>
+  <input type="radio" id="kriptografi" name="fav_language" value="Kriptografi">
+  <label for="kriptografi">Kriptografi</label><br>
+  <input type="radio" id="desain grafis" name="fav_language" value="Desain Grafis">
+  <label for="desain grafis">Desain Grafis</label><br>
+  <input type="radio" id="analisis data" name="fav_language" value="Analisis Data">
+  <label for="analisis data">Analisis Data</label><br>
+</form> 
+
+<h2>Checkboxes</h2>
+<p>Area Keahlian (Pilih semua yang sesuai):</p>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="HTML/CSS">
+  <label for="vehicle1"> HTML/CSS</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Desain UI/UX">
+  <label for="vehicle2"> Desain UI/UX</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="JavaScript/Node.js">
+  <label for="vehicle3"> JavaScript/Node.js</label><br>
+  <input type="checkbox" id="vehicle4" name="vehicle4" value="Pemasaran Digital">
+  <label for="vehicle4"> Pemasaran Digital</label><br>
+  <input type="checkbox" id="vehicle5" name="vehicle5" value="Python">
+   <label for="vehicle5"> Python</label><br>
+  <input type="submit" value="Submit">
+
+</form> 
+
+</body>
+</html>
